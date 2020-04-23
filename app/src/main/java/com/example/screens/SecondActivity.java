@@ -12,7 +12,6 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         TextView textView = findViewById(R.id.textView3);
-
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             String name = extras.getString("name");
